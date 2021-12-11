@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,700&display=swap');
+
+:root {
+    --primary-color: #0edfee;
+    --secondary-color: #1e293b;
+    --width-break: 800px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+main{
+    margin:auto;
+    padding:1rem;
+    max-width:var(--width-break);
+}
+
+.dog{
+    text-align:center;
+    padding:1rem;
+    background-color:var(--primary-color);
+}
+
+textarea{
+    box-sizing:border-box;
+    display:block;
+    width:90%;
+    min-height:20vh;
+    padding:1rem;
+    margin:1rem;
+    margin-top:2rem;
+    font-size:large;
+    font-family:inherit;
+}
+
+#btn-translator{
+    background-color:var(--primary-color);
+    border-radius:1rem;
+    width:15rem;
+    margin:1rem;
+    padding:1rem;
+    border:none;
+}
+
+#output{
+    border:1px solid var(--secondary-color);
+    display:block;
+    width:90%;
+    padding:1rem;
+    margin:1rem;
+    overflow: scroll;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top:1rem;
+    margin-bottom:1rem; */
+}
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    padding:1rem 0rem;
+    text-align: center;
+    color:black;
+    border-top-right-radius: 1rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+.footer .link{
+    color:black;
+}
+
+.footer .footer-header{
+    font-weight:bold;
+    font-size:medium;
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
+}
