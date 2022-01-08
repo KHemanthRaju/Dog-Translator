@@ -1,3 +1,3 @@
 # Dog-Translator
- Used API to translate English Language to Dogs Language.
- Tech Stack : VanillaJS, HTML and CSS
+ <p>Used API to translate English Language to Dogs Language.</p>
+ <p>Tech Stack : VanillaJS, HTML and CSS.</p>
